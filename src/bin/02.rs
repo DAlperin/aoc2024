@@ -1,7 +1,5 @@
 advent_of_code::solution!(2);
 
-fn is_valid_sequence
-
 pub fn part_one(input: &str) -> Option<u32> {
     let mut out = 0;
     input.lines().for_each(|line| {
